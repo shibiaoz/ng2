@@ -14,7 +14,7 @@
     "tsc:w": "tsc -w",
     "ngc": "node node_modules/.bin/ngc -p tsconfig-aot.json",
     "rollup": "node node_modules/.bin/rollup -c rollup-config.js",
-    "online":"npm run ngc && npm run rollup && npm run lite"
+    "online": "npm run ngc && npm run rollup && npm run lite"
   },
   "keywords": [],
   "author": "",
@@ -43,6 +43,7 @@
     "@types/selenium-webdriver": "^2.53.33",
     "canonical-path": "0.0.2",
     "concurrently": "^3.1.0",
+    "gulp": "^3.9.1",
     "http-server": "^0.9.0",
     "jasmine-core": "~2.4.1",
     "karma": "^1.3.0",
